@@ -1,0 +1,5 @@
+Typescript é uma extensão da JavaScript (um superset) adicionando tipos a ele
+
+Ele possui um compilador, o TSC, apontando erros de tipagem quando rodar
+
+No fim das contas, ainda é JS, então pode ignorar os tipos se quiser e arquivos Javascript conseguem funcionar em Typescript também
