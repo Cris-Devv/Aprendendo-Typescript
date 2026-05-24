@@ -1,9 +1,31 @@
 {
+  "name": "aprendendo-typescript",
+  "version": "1.0.0",
+  "description": "Repositório de aprendizado de Typescript onde guardo todas as novidades que vou aprendendo.",
+  "homepage": "https://github.com/Cris-Devv/Aprendendo-Typescript#readme",
+  "bugs": {
+    "url": "https://github.com/Cris-Devv/Aprendendo-Typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cris-Devv/Aprendendo-Typescript.git"
+  },
+  "license": "MIT",
+  "author": "Cris-Devv",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node app.ts"
+  },
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "nodemon": "^3.1.14"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.0.0",
     "typescript": "^6.0.3"
   }
 }
